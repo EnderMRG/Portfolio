@@ -53,7 +53,7 @@ function Navbar(){
       return (
         <div className="flex fixed  inset-x-0 max-w-2xl mx-auto z-50  items-center justify-end h-[13rem] pb-2 w-full">
           <FloatingDock
-            mobileClassName="translate-y-[500%] translate-x-[-30%] z-50" // only for demo, remove for production
+            mobileClassName="translate-y-[500%] translate-x-[-30%] translate-z-[-50%]" // only for demo, remove for production
             items={links}
           />
           
