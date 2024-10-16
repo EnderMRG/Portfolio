@@ -103,7 +103,7 @@ export const projects = [
     des: "A website to display my portfolio",
     img: "/portfolio.png",
     iconLists: ["/nextjs.svg", "/tail.svg", "/ts.svg","/js.svg"],
-    link: "/ui.apple.com",
+    link: "https://github.com/EnderMRG/Portfolio",
   },
 ];
 
