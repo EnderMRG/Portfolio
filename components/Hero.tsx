@@ -51,7 +51,7 @@ const Hero = () => {
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             <br></br><br></br>
-            Hi! Yep thats me, a coding Entusiast dealing in game and web development.
+            Hi! Yep that&apos;s me, a coding Entusiast dealing in game development and web development.
           </p>
 
           <a href="#about">

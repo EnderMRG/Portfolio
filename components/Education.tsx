@@ -15,7 +15,7 @@ const Approach = () => {
         <Card
           title="St.Xavier's H.S School"
           icon={<AceternityIcon order="Schooling" />}
-          des="Studied from first to tenth standard from here passing out in 2022"
+          des="Studied from first to tenth standard from here and passed out in 2022"
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,7 +26,7 @@ const Approach = () => {
         <Card
           title="Oil India H.S School"
           icon={<AceternityIcon order="High School" />}
-          des="Completed my eleventh and twelveth standard from here passing out in the year 2024"
+          des="Completed my eleventh and twelveth standard from here and passed out in the year 2024"
         >
           <CanvasRevealEffect
             animationSpeed={3}
