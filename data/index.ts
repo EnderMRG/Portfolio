@@ -48,7 +48,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently aiming to learn FrontEnd",
+    title: "Doing a steady effort to learn backend",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -104,6 +104,15 @@ export const projects = [
     img: "/portfolio.png",
     iconLists: ["/nextjs.svg", "/tail.svg", "/ts.svg","/js.svg"],
     link: "https://github.com/EnderMRG/Portfolio",
+  },
+  {
+    id: 4,
+    title: "Urbanease",
+    title2: "/urbanease",
+    des: "A website that connects local people with local service providers like carpenters, plumbers etc with a functional backend",
+    img: "/urbanease.png", 
+    iconLists: ["/html.svg", "/tail.svg", "/css.svg","/python.svg"],
+    link: "https://github.com/EnderMRG/UrbuneseFinal",
   },
 ];
 
@@ -202,6 +211,13 @@ export const workExperience = [
     desc: "Cracked my first front-end hackathon with a group of 3 ",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp4.svg",
+  },
+  {
+    id: 3,
+    title: "Game of codes",
+    desc: "Created a fullstack website in one night for a hackoton event with a team of 4",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp3.svg",
   },
 ];
 
