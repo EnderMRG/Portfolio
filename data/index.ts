@@ -114,6 +114,15 @@ export const projects = [
     iconLists: ["/html.svg", "/tail.svg", "/css.svg","/python.svg"],
     link: "https://github.com/EnderMRG/UrbuneseFinal",
   },
+  {
+    id: 5,
+    title: "Local-Link",
+    title2: "/local-link",
+    des: "Service provider website using Firebase and Gemini API",
+    img: "/locallink.png", 
+    iconLists: ["/nextjs.svg", "/fire.svg", "/gemini.svg", "/ts.svg"],
+    link: "https://local-link-drab.vercel.app",
+  },
 ];
 
 export const companies = [
