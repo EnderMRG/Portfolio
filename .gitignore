@@ -27,6 +27,7 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
 
 # vercel
 .vercel
@@ -37,3 +38,16 @@ next-env.d.ts
 
 # Sentry Config File
 .sentryclirc
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+
+# Antigravity brain (AI assistant artifacts)
+.gemini/

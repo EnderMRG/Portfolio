@@ -2,15 +2,34 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
 import "./globals.css";
-import { ThemeProvider } from "./provider";
-import Navbar from "@/components/dock";
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter",
+});
 
 export const metadata: Metadata = {
-  title: "Moharnab's Portfolio",
-  description: "Portfolio",
+  title: "Moharnab Gogoi — Developer & Creator",
+  description:
+    "Portfolio of Moharnab Gogoi — a developer passionate about game development, web development, and building innovative digital experiences.",
+  keywords: [
+    "Moharnab Gogoi",
+    "Developer",
+    "Portfolio",
+    "Web Development",
+    "Game Development",
+    "Next.js",
+    "Unreal Engine",
+    "Unity",
+  ],
+  openGraph: {
+    title: "Moharnab Gogoi — Developer & Creator",
+    description:
+      "A developer passionate about game development, web development, and building innovative digital experiences.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -19,22 +38,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" className={inter.variable}>
       <head>
         <link rel="icon" href="/favicon.png" sizes="any" />
       </head>
-      <body className={inter.className}>
-        <Analytics/>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="dark"
-          enableSystem
-          disableTransitionOnChange
-        >
-          <Navbar></Navbar>
-
-          {children}
-        </ThemeProvider>
+      <body className="font-sans antialiased">
+        <Analytics />
+        {children}
       </body>
     </html>
   );
