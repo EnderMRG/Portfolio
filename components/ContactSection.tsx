@@ -33,10 +33,10 @@ const ContactSection = () => {
         </h2>
         
         <p className="text-lg md:text-xl text-neutral-700 mb-4 leading-relaxed font-medium max-w-2xl mx-auto">
-          Let's connect and build something great together.
+          Let&apos;s connect and build something great together.
         </p>
         <p className="text-neutral-600 mb-10 leading-relaxed max-w-xl mx-auto">
-          Whether you have a project in mind, want to collaborate, or just want to chat about tech — I'd love to hear from you.
+          Whether you have a project in mind, want to collaborate, or just want to chat about tech — I&apos;d love to hear from you.
         </p>
         
         {linkedinLink && (
